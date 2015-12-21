@@ -32,6 +32,9 @@ default['hubot']['dependencies'] = {}
 default['hubot']['hubot_scripts'] = []
 default['hubot']['external_scripts'] = []
 
+# Node engines
+default['hubot']['engines'] = { 'node' => '> 0.8.x', 'npm' => '1.1.x' }
+
 # Choose daemonize program: 'runit' or 'supervisor'
 default['hubot']['daemon'] = 'runit'
 
